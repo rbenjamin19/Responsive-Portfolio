@@ -1,0 +1,611 @@
+h1 h2 h3{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+h3 a{
+	font-size:20px;
+	color:#777777;
+}
+
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#777777
+}
+
+a {
+	color:#777777;
+	text-decoration:none
+}
+
+
+body{
+	background-color:#ececec;
+}
+
+form{
+	margin-left:20px;
+	margin-top:5%;
+}
+
+input{
+	width:595px;
+	height:25px;
+}
+
+textarea{
+	width:595px;
+	height:150px;
+}
+
+img{
+	margin-top:10px;
+}
+
+
+#name, #email, #message,
+ #submit{
+	font-size:18px;
+	color: #777777;
+	line-height:1.5;
+}
+
+#submit{
+	border: 1px solid #4aaaa5;;
+   	background-color: #4aaaa5;
+	height:30px;
+	width:80px;
+	cursor:pointer;
+	color:#ffffff;
+	text-align:center;
+	font-size:16px;
+	margin-top:15px;
+}
+
+#nav{
+	width:100%;
+	background-color: #ffffff;
+	height:75px;
+	border:1px solid #cccccc;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#Name{
+	background-color: #4aaaa5;
+	height:55px;
+	width:20%;
+	text-align:center;
+	vertical-align: center;
+	position:relative;
+	top: -20px;
+	left: 10%;
+	padding-top: 40px;
+	color:white;
+	font-size:30px;
+}
+
+#About{
+	width:55px;
+	position:relative;
+	left:60%;
+	top:-60px;
+}
+
+#Portfolio{
+	position:relative;
+	width:60px;
+	border-left: solid 1px navy;
+	border-right: solid 1px navy;
+	left:60.5%;
+	padding-left:6px;
+	padding-right:6px;
+	top:-60px;
+	text-align:center;
+}
+
+#Contact{
+	position:relative;
+	width:65px;
+	left:61%;
+	top:-60px;
+}
+
+#aboutMe{
+	border:1px solid #cccccc;
+	width:650px;
+	height:450px;
+	margin-top:125px;
+	margin-left:130px;
+	background-color:#ffffff;
+	padding-top:10px;
+}
+
+#aboutHead{
+	position:relative;
+	top:5px;
+	left:20px;
+	padding-bottom:20px;
+	border-bottom: 3px solid #cccccc;
+	width:600px;
+	font-size:30px;
+	color:#4aaaa5;
+}
+
+#meImg{
+	margin-top:15px;
+	margin-left:10px;
+	float:left;
+	padding-top:15px;
+	margin-right:10px;
+}
+
+#aboutPara1{
+	margin-top:15px;
+	font-size:16px;
+	padding-top:15px;
+	padding-bottom:15px;
+	word-spacing:2px;
+	padding-right:3.3%;
+	margin-left:10px;
+}
+
+#aboutPara2{
+	font-size:16px;
+	word-spacing:2px;
+	margin-left:10px;
+}
+
+#connect{
+	border:1px solid #cccccc;
+	width:295px;
+	height:200px;
+	margin-left:825px;
+	margin-top:-462.5px;
+	background-color:#ffffff;
+}
+
+#connectHead{
+	font-size:30px;
+	color:#4aaaa5;
+	margin:5px;
+	margin-left:30px;
+	border-bottom: 3px solid #cccccc;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	width:210px;
+	padding-top:10px;
+}
+
+#img1{
+	margin-left:60px;
+}
+
+#img2{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#imgA{
+	position: absolute;
+	left:500px;
+	top:250px;
+}
+
+#imgB{
+	position: absolute;
+	left:500px;
+	top:350px;
+}
+
+#imgC{
+	position: absolute;
+	left:150px;
+	top:200px;
+	height:100px;
+	width:300px;
+}
+
+#imgD{
+	position: absolute;
+	left:150px;
+	top:325px;
+	height:100px;
+	width:300px;
+}
+
+#imgE{
+	position: absolute;
+	left:150px;
+	top:450px;
+	height:100px;
+	width:300px;
+}
+
+#offrbox, #credits4Less, #charlotte, #longIsland,
+#sanFran{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width:275px;
+	height:20px;
+	text-align:center;
+	line-height:1.25;
+	position:relative;
+}
+
+#charlotte, #longIsland, 
+#sanFran{
+	width:300px;
+	left:19px;
+}
+
+#offrbox{
+	left:350px;
+	top:145px;
+}
+
+#credits4Less{
+	left:350px;
+	top:285px;
+}
+
+#charlotte{
+	top:51px;
+}
+
+#longIsland{
+	top:156px;
+}
+
+#sanFran{
+	top:261px;
+}
+
+#foot{
+	color:#ffffff;
+	background-color: #666666;
+	position:fixed;
+	width:100%;
+	height:40px;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	padding-top:40px;
+	border-top:5px solid #4aaaa5;
+	font-size:12px;
+}
+
+    /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	#aboutMe{
+    	margin-left:50px;
+    	height:450px;
+	}  
+
+	#connect{
+		border:1px solid #cccccc;
+		width:295px;
+		height:200px;
+		margin-left:780px;
+		margin-top:-462.5px;
+		background-color:#ffffff;
+	}
+
+	#meImg{
+		margin-top:15px;
+		margin-left:10px;
+		float:left;
+		padding-top:15px;
+		margin-right:10px;	
+	}
+
+	#Name{
+		font-size: 24px;
+	}
+
+	#imgA{
+		position: absolute;
+		left:425px;
+		top:250px;
+	}
+
+	#imgB{
+		position: absolute;
+		left:425px;
+		top:350px;
+	}
+	#imgC{
+		position: absolute;
+		left:70px;
+		top:200px;
+		height:100px;
+		width:300px;
+	}
+
+	#imgD{
+		position: absolute;
+		left:70px;
+		top:325px;
+		height:100px;
+		width:300px;
+	}
+
+	#imgE{
+		position: absolute;
+		left:70px;
+		top:450px;
+		height:100px;
+		width:300px;
+	}
+
+}
+
+	
+    /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #aboutMe{
+    	margin-left:10px;
+    	height:350px;
+    	margin-top:95px;
+	}
+
+	#connect{
+		margin-left:10px;
+		border:1px solid #cccccc;
+		width:295px;
+		height:150px;
+		background-color:#ffffff;
+		clear:both;
+		position:fixed;
+		bottom:105px;
+    }
+
+    #meImg{
+		margin-top:15px;
+		margin-left:10px;
+		float:left;
+		padding-top:15px;
+		margin-right:10px;
+	}	
+
+	#Name{
+		font-size: 24px;
+	}
+
+	textarea{
+		width:595px;
+		height:75px;
+	}
+
+	form{
+		margin-top:2.5px;
+	}
+
+	#submit{
+		border: 1px solid #4aaaa5;;
+	   	background-color: #4aaaa5;
+		height:30px;
+		width:80px;
+		cursor:pointer;
+		color:#ffffff;
+		text-align:center;
+		font-size:16px;
+		margin-top:10px;
+	}
+
+	#imgA{
+		position: absolute;
+		left:390px;
+		top:175px;
+	}
+
+	#offrbox{
+		left:350px;
+		top:100px;
+	
+	}
+
+	#imgB{
+		position: absolute;
+		left:390px;
+		top:280px;
+	}
+
+	#credits4Less{
+		left:350px;
+		top:240px;
+	}
+
+	#imgC{
+		position: absolute;
+		left:40px;
+		top:160px;
+		height:75px;
+		width:300px;
+	}
+
+	#charlotte{
+		top:37px;
+		left:29px;
+	}	
+
+	#imgD{
+		position: absolute;
+		left:40px;
+		top:260px;
+		height:75px;
+		width:300px;
+	}
+
+	#longIsland{
+		top:115px;
+		left:29px;
+	}
+
+
+	#imgE{
+		position: absolute;
+		left:40px;
+		top:360px;
+		height:75px;
+		width:300px;
+	}
+	#sanFran{
+		top:190px;
+		left:29px;
+	}
+
+
+}
+
+    /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#aboutMe{
+    	margin-left:10px;
+    	width:385px;
+    	margin-top:100px;
+    	height:375px;
+	}   
+
+	#meImg{
+		margin-top:15px;
+		margin-left:10px;
+		float:left;
+		padding-top:15px;
+		margin-right:10px;
+		display:none;
+	}	
+
+	#aboutPara1{
+		margin-top:15px;
+		font-size:15px;
+		padding-top:15px;
+		padding-bottom:15px;
+		word-spacing:2px;
+		padding-right:3.3%;
+		margin-left:10px;
+		overflow: hidden; 
+	}
+
+	#aboutPara2{
+		font-size:15px;
+		word-spacing:2px;
+		margin-left:10px;
+	}
+
+	#aboutHead{
+		position:relative;
+		top:5px;
+		left:20px;
+		padding-bottom:20px;
+		border-bottom: 3px solid #cccccc;
+		width:295px;
+		font-size:30px;
+		color:#4aaaa5;
+	}
+
+	#connect{
+		margin-left:10px;
+		border:1px solid #cccccc;
+		width:385px;
+		height:150px;
+		background-color:#ffffff;
+		clear:both;
+		position:fixed;
+		bottom:90px;
+	}
+
+	#Name{
+		font-size: 20px;
+	}
+
+	#bar2{
+		margin-left:-45px;
+	}
+
+	.form{
+		width:295px;
+	}
+
+	textarea{
+		width:295px;
+		height:100px;
+	}
+
+	#imgA{
+		position: absolute;
+		left:215px;
+		top:220px;
+		height:75px;
+		width:175px;
+	}
+
+	#offrbox{
+		left:200px;
+		top:135px;
+		width:180px;
+	}
+
+	#imgB{
+		position: absolute;
+		left:215px;
+		top:330px;
+		height:75px;
+		width:175px;
+	}
+
+	#credits4Less{
+		left:200px;
+		top:225px;
+		width:180px;
+	}
+
+	#imgC{
+		position: absolute;
+		left:40px;
+		top:180px;
+		height:50px;
+		width:150px;
+	}
+
+	#charlotte{
+		top:36px;
+		left:29px;
+		width:150px;
+	}	
+
+	#imgD{
+		position: absolute;
+		left:40px;
+		top:280px;
+		height:50px;
+		width:150px;
+	}
+
+	#longIsland{
+		top:115px;
+		left:29px;
+		width:150px;
+	}
+
+	#imgE{
+		position: absolute;
+		left:40px;
+		top:380px;
+		height:50px;
+		width:150px;
+	}
+
+	#sanFran{
+		top:190px;
+		left:29px;
+		width:150px;
+	}
+	
+	 body {
+       overflow-y: scroll;
+    }
+}
+
